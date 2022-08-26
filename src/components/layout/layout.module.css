@@ -1,0 +1,39 @@
+.container {
+  height: 100%;
+  overflow: auto;
+}
+
+.custom_header {
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.wrap {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+}
+
+.sider_wrap {
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blank {
+  flex: 1 1 auto;
+}
+
+.site_layout_background {
+  background: #fff;
+}

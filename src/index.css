@@ -1,0 +1,15 @@
+#root {
+  height: 100%;
+}
+
+.custom_spin_dom {
+  height: 100%;
+}
+
+.custom_spin_dom > div > .ant-spin {
+  max-height: none;
+}
+
+.custom_spin_dom .ant-spin-container {
+  height: 100%;
+}
